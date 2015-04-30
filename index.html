@@ -2,11 +2,15 @@
     <head>
         <meta charset="utf-8">
 	<title>MongoChem Web Application</title>
+	<script src="http://3Dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
     </head>
     <body layout="column" ng-app="chemPhyWebApp">
         <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
 	<div ng-view></div>
+
 <!--
+	<div style="height: 400px; width: 400px; position: relative;" class='viewer_3Dmoljs' data-pdb='2POR' data-backgroundcolor='0x000000' data-style='stick'></div>
+
         <div ng-view>
             <div chem-phy-web-main></div>
             <div chem-phy-web-side></div>
